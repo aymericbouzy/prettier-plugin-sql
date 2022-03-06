@@ -1103,6 +1103,11 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
+big-integer@^1.6.48:
+  version "1.6.51"
+  resolved "https://registry.yarnpkg.com/big-integer/-/big-integer-1.6.51.tgz#0df92a5d9880560d3ff2d5fd20245c889d130686"
+  integrity sha512-GPEid2Y9QU1Exl1rpO9B2IPJGHPSupF5GnVIP0blYvNOMer2bTvSWs1jGOUg04hTmu67nmLsQ9TBo1puaotBHg==
+
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
@@ -3508,6 +3513,13 @@ node-releases@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.2.tgz#7139fe71e2f4f11b47d4d2986aaf8c48699e0c01"
   integrity sha512-XxYDdcQ6eKqp/YjI+tb2C5WM2LgjnZrfYg4vgQt49EK268b6gYCHsBLrK2qvJo4FmCtqmKezb0WZFK4fkrZNsg==
+
+node-sql-parser@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/node-sql-parser/-/node-sql-parser-4.1.1.tgz#4c31b4ca3a1fc577dc1f37bfbe272aeacf651051"
+  integrity sha512-VV5ojNHj0ZOjA66DbzbJwESZmgE8OtfJamrsOq0CYxCatFeHh24uBoVP+GXo06qR4T4hzol67hZ62gVf/oZBvA==
+  dependencies:
+    big-integer "^1.6.48"
 
 normalize-path@^2.1.1:
   version "2.1.1"

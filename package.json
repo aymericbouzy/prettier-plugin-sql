@@ -36,5 +36,8 @@
 	"sideEffects": false,
 	"files": [
 		"dist"
-	]
+	],
+	"dependencies": {
+		"node-sql-parser": "^4.1.1"
+	}
 }
